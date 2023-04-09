@@ -7,6 +7,7 @@ using System.Data;
 
 namespace AppCollection.Controllers
 {
+    [Authorize]
     public class AppRolesController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;

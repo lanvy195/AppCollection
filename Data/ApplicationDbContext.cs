@@ -11,5 +11,7 @@ namespace AppCollection.Data
 
         }
         public DbSet <CollectLeadEntity> CollectLead { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }
